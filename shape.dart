@@ -26,7 +26,7 @@ class Oval implements Shape {
   final double minorRadius;
   final double majorRadius;
 
-  Oval(this.minorRadius, this.majorRadius);
+  Oval({required this.minorRadius, required this.majorRadius});
 
   @override
   double getArea() {
